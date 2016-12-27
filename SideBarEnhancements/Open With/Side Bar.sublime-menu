@@ -1,0 +1,20 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+			{
+				"caption": "libreoffice",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "libreoffice",
+									"extensions":".*" //any file with extension
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			{"caption":"-"}
+		]
+	}
+]
